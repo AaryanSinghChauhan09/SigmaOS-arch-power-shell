@@ -1,10 +1,17 @@
 // Integration test for SigmaOS-arch-power-shell
 // Verifies the crate builds and links as a dependency.
-#![allow(unused_imports)]
 
-use arch_power_shell as _;
+use sigmaos_arch_power_shell::PowerShell;
 
 #[test]
 fn crate_links_and_runs() {
-    assert_eq!(2 + 2, 4);
+    // Arrange
+    let ps = PowerShell::new();
+
+    // Act
+    let output = ps.run_line("Get process");
+
+    // Assert
+    assert!(output.is_ok());
+    assert!(output.unwrap().contains("Retrieved"));
 }
