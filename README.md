@@ -1,6 +1,6 @@
-# SigmaOS-arch-power-shell
+# SigmaOS-power-shell
 
-SigmaOS SigmaOS-arch-power-shell component
+SigmaOS SigmaOS-power-shell component
 
 - **Category:** Components
 - **Engine:** component

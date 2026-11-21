@@ -1,13 +1,13 @@
 [package]
-name = "sigmaos-arch-power-shell"
+name = "sigmaos-power-shell"
 version = "0.1.0"
 edition = "2021"
 description = "PowerShell-like command interpreter for SigmaOS"
 license = "MIT"
-repository = "https://github.com/AaryanSinghChauhan09/SigmaOS-arch-power-shell"
+repository = "https://github.com/AaryanSinghChauhan09/SigmaOS-power-shell"
 
 [dependencies]
 
 [lib]
-name = "sigmaos_arch_power_shell"
+name = "sigmaos_power_shell"
 path = "src/lib.rs"

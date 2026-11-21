@@ -1,7 +1,7 @@
-// Integration test for SigmaOS-arch-power-shell
+// Integration test for SigmaOS-power-shell
 // Verifies the crate builds and links as a dependency.
 
-use sigmaos_arch_power_shell::PowerShell;
+use sigmaos_power_shell::PowerShell;
 
 #[test]
 fn crate_links_and_runs() {

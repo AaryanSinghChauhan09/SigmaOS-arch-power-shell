@@ -1,5 +1,5 @@
 [component]
-name = "SigmaOS-arch-power-shell"
+name = "SigmaOS-power-shell"
 tier = 2
 stability = "beta"
 language = "rust"
